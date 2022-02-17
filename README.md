@@ -7,3 +7,8 @@ Create a module:
 ````
 nest generate module messages
 ````
+
+Generate a controller (set of) files:
+````
+nest generate controller messages/messages --flat
+````
