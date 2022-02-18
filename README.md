@@ -49,4 +49,7 @@ The example is designed in such a way that you have to:
 - Also add an empty object `{}` in the messages.json file after creating the file so that JSON code can work properly.
 
 ## Inversion of control principle
-This is related to dependency injection. This principle states that: A class should not create instances of its dependencies on its own.
+This principle states that: A class should not create instances of its dependencies on its own. The down side is that we may need to write many classes and or lines of code. This is not so scalable when the application grows much bigger.
+
+## Dependency injection
+Dependency injection is all about making use of the inversion of control principle but not having to create a ton of different classes or instances every single time we want a controller. We don't have to worry about creating such dependencies ourselves - the dependency injection container/injector takes care of this.
