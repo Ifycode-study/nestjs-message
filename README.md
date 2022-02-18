@@ -47,3 +47,6 @@ Install two packages for use:
 The example is designed in such a way that you have to:
 - Create a messages.json file in the root of the project to avoid errors.
 - Also add an empty object `{}` in the messages.json file after creating the file so that JSON code can work properly.
+
+## Inversion of control principle
+This is related to dependency injection. This principle states that: A class should not create instances of its dependencies on its own.
