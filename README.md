@@ -42,3 +42,8 @@ GET http://localhost:3000/messages/123123123
 Install two packages for use:
 - class-validator
 - class-transformer
+
+## Service and repository
+The example is designed in such a way that you have to:
+- Create a messages.json file in the root of the project to avoid errors.
+- Also add an empty object `{}` in the messages.json file after creating the file so that JSON code can work properly.
