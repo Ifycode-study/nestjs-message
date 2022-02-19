@@ -1,5 +1,7 @@
 # Nestjs message api
 
+Course: "NestJS: The Complete Developer's Guide" by Stephen Grider.
+
 App goal: Store and receive messages (strings) stored in a plain JSON file.
 
 Create a module:
